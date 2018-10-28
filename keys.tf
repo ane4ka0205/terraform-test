@@ -1,0 +1,4 @@
+resource "aws_key_pair" "example" {
+  key_name   = "example"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvbirtcT+smDulyWutkDzlsxAtyElwccuzeb5cA1/joTw5f+hWZ2XMepvU6ErDpyonbxIrSis/k7/dbQPm+3eNCjcR5pRbKg56dxGatVz1dH5gVg+fcvdn9avJgWOjqDEE/WLizh/3M5i+Fo76y/oTzcS3nwKIoPkFKkoHFfF/Km9Gf7b78Ohbv7311Pvi31WPJa6cC80NstdkB6jWMqbHrb3pFm9sjpkiUNrCX1WbXEKkfjiJkRTWSmVbkfGQEZDgVkABJCSXmEUCop4ZL5z9q46zBnEtlTpMVb70Bwef1nm2jD5my0Wl5aL8zrOqzq0GjZ+E2IE6Lib+JaPoj8Dl root@terraform"
+}
